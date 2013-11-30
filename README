@@ -1,0 +1,20 @@
+Debian Live USB for network testing
+
+Debian 7
+
+Development tools
+	apt-get install vim subversion git-core
+X Windows
+
+	aptitude install --without-recommends xorg
+	aptitude install --without-recommends lxde
+Languages
+?	aptitude install --without-recommends uim uim-anthy
+Sound
+?	aptitude install alsa-utils
+
+Windows applications
+
+?	aptitude install --without-recommends midori
+Network tools
+	apt-get install iperf
